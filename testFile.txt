@@ -1,5 +1,5 @@
 This test File for homework #2, part II
 
 I will add issues in this list:
-1. It's first issue
+1.
 2. It's second issue
