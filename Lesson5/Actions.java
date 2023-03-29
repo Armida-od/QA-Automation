@@ -14,6 +14,6 @@ public class Actions {
         return a / b;
     }
     public static int remainder ( int a, int b){
-        return a%b;
+        return a * b / 100;
     }
 }
