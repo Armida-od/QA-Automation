@@ -11,8 +11,6 @@ public class Lesson5 {
         int number2 = sc.nextInt();
         System.out.println("What action do you want to do? Enter \"+\", \"-\", \"*\", \"/\" or \"%\"");
         char symbol = sc.next().charAt(0);
-//        double n1 = number1;
-//        double n2 = number2;
 
         switch (symbol) {
             case '+':
