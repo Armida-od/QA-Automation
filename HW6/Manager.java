@@ -36,6 +36,6 @@ public class Manager extends Employee{
     }
 
 //    public static void getInfo(){
-//        System.out.println("jhfvb");
+//        System.out.println("and has a team of 4 members: [Tom, Bill, Misha, John]");
 //    }
 }
