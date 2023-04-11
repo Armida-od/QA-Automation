@@ -1,5 +1,7 @@
 package HW6;
 
+import java.util.Arrays;
+
 public class Manager extends Employee{
     final String LastName;
     Employee[] team;
@@ -24,18 +26,18 @@ public class Manager extends Employee{
 
     @Override
     public String Position() {
-        return "Manager";
+        return "Manager and has a team of " + team.length +" members " + Arrays.toString(team);
     }
 
     @Override
     public String Seniority() {
         return "Senior";
     }
-
-    public void setTeamMembers(JavaDeveloper javaDev, AngularDeveloper angularDev, AutomationEngineer autoTester, ManualTestEngineer manualTester) {
+    public void setTeamMembers(Employee... employees){
+        team = employees;
     }
 
-//    public static void getInfo(){
-//        System.out.println("and has a team of 4 members: [Tom, Bill, Misha, John]");
-//    }
+    public String getInfo(){
+        return getName();
+    }
 }

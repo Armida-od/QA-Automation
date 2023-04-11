@@ -6,6 +6,7 @@ public abstract class Employee {
     public Employee(String name) {
         this.name = name;
     }
+
     public String getName() {
         return name;
     }
@@ -18,7 +19,12 @@ public abstract class Employee {
 
     public abstract String Seniority();
 
-    public String getInfo(){
-    return getName();
+    public String getInfo() {
+        return getName();
+    }
+
+    @Override
+    public String toString() {
+        return getName();
     }
 }

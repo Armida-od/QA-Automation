@@ -1,7 +1,7 @@
 package HW6;
 
 public class AutomationEngineer extends Employee {
-final String LastName;
+    final String LastName;
 
     public AutomationEngineer(String name, String lastName) {
         super(name);

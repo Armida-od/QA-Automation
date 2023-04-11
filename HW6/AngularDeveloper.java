@@ -1,7 +1,6 @@
 package HW6;
 
-public class AngularDeveloper extends Employee{
-
+public class AngularDeveloper extends Employee {
     public AngularDeveloper(String name) {
         super(name);
     }
@@ -15,5 +14,4 @@ public class AngularDeveloper extends Employee{
     public String Seniority() {
         return "Middle";
     }
-
 }

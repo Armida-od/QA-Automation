@@ -1,6 +1,6 @@
 package HW6;
 
-public class JavaDeveloper extends Employee{
+public class JavaDeveloper extends Employee {
 
     public JavaDeveloper(String name) {
         super(name);
