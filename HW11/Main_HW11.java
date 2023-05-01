@@ -16,7 +16,6 @@ public class Main_HW11 {
     }
 
     public static void infoList(Map<Integer, String> getValue) {
-
         for (Map.Entry<Integer, String> userList : getValue.entrySet()) {
             System.out.println(userList);
         }
