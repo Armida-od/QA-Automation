@@ -1,11 +1,10 @@
 package HW11;
 
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Main_HW11 {
     public static void main(String[] args) {
-        Map<Integer, String> userPerson = new TreeMap<>();
+        Map<Integer, String> userPerson = new HashMap<>();
         userPerson.put(40, "Anton");
         userPerson.put(28, "Igor");
         userPerson.put(24, "Ivan");
@@ -16,9 +15,10 @@ public class Main_HW11 {
     }
 
     public static void infoList(Map<Integer, String> getValue) {
+        Map<Integer, String> uniqGetValue = new TreeMap<>(getValue);
 
-        for (Map.Entry<Integer, String> userList : getValue.entrySet()) {
-            System.out.println(userList);
+        for (Map.Entry<Integer, String> s : uniqGetValue.entrySet()) {
+            System.out.println(s);
         }
     }
 
